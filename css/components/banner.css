@@ -1,0 +1,33 @@
+.banner {
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  margin: 0;
+  color: white;
+  text-shadow: 0 0 3px rgba(0,0,0,0.8);
+  font-size: 40px;
+}
+
+.sub-title {
+  font-size: 24px;
+  line-height: 0.5;
+  color: rgb(238, 238, 238);
+  text-shadow: 0 0 3px rgba(0,0,0,0.8);
+}
+
+.banner-btn {
+  color: white;
+  background-color: rgb(53, 128, 242);
+  padding: 8px 40px;
+  border-radius: 50px;
+}
+
+.banner-btn:hover {
+  background-color: rgb(136, 181, 249);
+}
